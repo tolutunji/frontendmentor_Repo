@@ -4,7 +4,7 @@
 }
 
 body {
-    line-height: 1.6;
+    line-height: 1.2;
     display: grid;
     min-height: 100vh;
     place-items: center;
@@ -25,13 +25,23 @@ body {
 .image {
     object-fit: cover;
     width: 330px;
-    height: 280px;
-    padding: 15px;
+    height: 330px;
+    padding: 15px 15px 2px 15px;
     border-radius: 25px;
 }
 
 .content {
     width: 330px;
     text-align: center;
+}
+
+.heading {
+    font-size: 1.4rem;
+    padding: 0 2.5rem 0 2.5rem;
+    font-weight: 800;
+}
+
+.content__body {
+    padding: 0 2.2rem 3rem 2.2rem;
 }
 
